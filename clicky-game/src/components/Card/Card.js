@@ -5,7 +5,7 @@ const Card = props => (
     <span onClick={() => props.checkClicked(props.id)}>
     <div className="card">
         <div className="character">
-            <img className="character-image" alt={props.name} src={process.env.PUBLIC_URL + props.image} />
+            <img className="character-image" alt={props.name} src={props.image} />
         </div>
     </div>
     </span>
